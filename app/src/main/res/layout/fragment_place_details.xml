@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.MessageFormFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_shape_darkgrey"
+        android:alpha="0.75"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_is_adi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15dp">
+            <EditText android:id="@+id/is_adi_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:hint="İş emrinin adı"
+                android:autofillHints="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_is_aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp">
+            <EditText android:id="@+id/is_aciklama_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:hint="İş emri açıklaması"
+                android:autofillHints="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/iptal_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shape_red"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="Iptal"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:onClick="CloseThePlaceFragment_IptalButton"
+                android:layout_weight="0.5"
+                tools:ignore="OnClick" />
+            <Button
+                android:id="@+id/kaydet_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shape_green"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:text="Kaydet"
+                android:textSize="25dp"
+                android:onClick="AddNewPlace_KaydetButton"
+                android:textAllCaps="false"
+                android:layout_weight="0.5"
+                tools:ignore="OnClick" />
+            <Button
+                android:id="@+id/delete_button"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shape_green"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:text="Sil"
+                android:textSize="25dp"
+                android:onClick="DeletePlace_DeleteButton"
+                android:textAllCaps="false"
+                android:layout_weight="0.5"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
