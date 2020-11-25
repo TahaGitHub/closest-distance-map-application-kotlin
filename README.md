@@ -7,14 +7,14 @@ Permission
 
 SingUp and LogIn
 
-![](SingUp and SingIn.gif)
+![](SingUp%20and%20SingIn.gif)
 
 
 Add New Place
 
-![](Add New Place.gif)
+![](Add%20New%20Place.gif)
 
 
 Get the Disraction: distance get as car driver where get smallest distance between current position and 
 
-![](Rote Olustur.gif)
+![](Rote%20Olustur.gif)
