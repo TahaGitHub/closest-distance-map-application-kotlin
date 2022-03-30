@@ -2,6 +2,12 @@
 
 Developed this application to find the shortest road between two points. Addition for that, adding or removing or changing any point from the points. Finally, storing the data added or changed in local database "Room Database".
 
+Used in this application:
+- Android Studrio
+- Room Database.
+- Rest Api "Retrofit".
+- Openrouteservice.
+
 This project used Kotlin language, but there another application as the same but used Java. [Java Project](https://github.com/TahaGitHub/Map_Alpplication_Java).
 
 ## Deny Permission State
