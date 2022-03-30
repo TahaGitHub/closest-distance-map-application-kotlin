@@ -10,6 +10,8 @@ Used in this application:
 
 This project used Kotlin language, but there another application as the same but used Java. [Java Project](https://github.com/TahaGitHub/Map_Alpplication_Java).
 
+You can download and test apk, you will find it in a rar file on repository project. [Apk](https://github.com/TahaGitHub/shortest-distance-map-application-kotlin/blob/master/Map_Application_Kotlin_Taha%20Almpkahel.rar)
+
 ## Deny Permission State
 
 Next gif file is showing when user denied for location permission.\
