@@ -1,6 +1,6 @@
 # Closest Distance Map Application Kotlin
 
-Training Application.
+Application for training.
 
 Developed this application to find the closest road between two points. Addition for that, adding or removing or changing any point from the points. Finally, storing the data added or changed in local database "Room Database".
 
